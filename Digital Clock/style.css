@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    gap: 1rem;
+    font-size: 3.5rem;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    gap: 1rem;
+}
+
+.clock *{
+    width: 110px;
+    height: 110px;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
