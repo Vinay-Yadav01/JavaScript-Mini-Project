@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 1.5rem;
+}
+
+button{
+    padding: 10px 30px;
+    margin: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
